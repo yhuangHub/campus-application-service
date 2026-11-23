@@ -31,5 +31,11 @@
 4. 交卷后按验收标准进行 Code Review。
 5. 验收通过后 Merge，并建立完成标签。
 
-完整路线见 [ROADMAP.md](ROADMAP.md)，架构约定见 [ARCHITECTURE.md](docs/architecture/ARCHITECTURE.md)。所有学校、人员及数据均为虚构。
+## 项目文档
+
+- [项目架构、练习路线与设计说明](docs/PROJECT_GUIDE.md)
+- [演进路线](ROADMAP.md)
+- [架构约定](docs/architecture/ARCHITECTURE.md)
+
+所有学校、人员及数据均为虚构。
 
