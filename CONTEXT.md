@@ -24,7 +24,9 @@ This repository is a long-running interview practice project for Java backend de
 
 ## Current state
 
-Current exercise: `docs/aufgaben/aufgabe-01-study-program-lookup`.
+Current exercise: `docs/aufgaben/aufgabe-02-capacity-update`.
 
-The starter contains the application entry point, `StudyProgram`, `StudyProgramRepository`, three H2 records, and one skeleton test. It intentionally contains no business DTO, Service, Controller, API exception handling, or business tests.
+Aufgabe 01 is accepted and merged. The cumulative code contains the working study-program lookup, its DTO, service, controller, exception handling, and regression tests.
+
+Aufgabe 02 asks the learner to implement `PUT /api/v1/study-programs/{id}/capacity` with numeric boundaries, immutable DTOs, validation, and a service-level transaction. The exercise statement and accepted Aufgabe 01 code are provided; the learner owns the new business implementation and tests.
 

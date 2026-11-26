@@ -4,10 +4,10 @@
 
 ## 当前练习
 
-- [Aufgabe 01 中文题面](docs/aufgaben/aufgabe-01-study-program-lookup/AUFGABE_ZH.md)
-- [Aufgabe 01 Deutsche Aufgabenstellung](docs/aufgaben/aufgabe-01-study-program-lookup/AUFGABE_DE.md)
+- [Aufgabe 02 中文题面](docs/aufgaben/aufgabe-02-capacity-update/AUFGABE_ZH.md)
+- [Aufgabe 02 Deutsche Aufgabenstellung](docs/aufgaben/aufgabe-02-capacity-update/AUFGABE_DE.md)
 
-当前只提供 `StudyProgram` Entity、Repository、H2 初始数据和基础测试。业务 DTO、Service、Controller、异常处理及业务测试由学习者完成。
+Aufgabe 01 已验收并合并。当前累计代码是 Aufgabe 02 的起点；容量修改所需的 DTO、业务实现、校验处理和测试由学习者完成。
 
 ## 启动
 
@@ -25,7 +25,7 @@
 
 ## 工作方式
 
-1. 从 `main` 创建当前 Aufgabe 分支，例如 `aufgabe/01-study-program-lookup`。
+1. 从 `main` 创建当前 Aufgabe 分支，例如 `aufgabe/02-capacity-update`。
 2. 独立完成业务实现和测试。
 3. Push 并创建 Pull Request。
 4. 交卷后按验收标准进行 Code Review。

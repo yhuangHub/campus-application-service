@@ -215,6 +215,6 @@ Reviewer 会同时检查：
 
 ## 10. 当前状态
 
-当前正式发布的题目只有 Aufgabe 01：按 ID 查询招生专业。项目已经提供 Entity、Repository、三条 H2 数据和一个基础骨架测试。
+Aufgabe 01：按 ID 查询招生专业，已经验收并通过 Pull Request #1 合并到 `main`。它的查询接口、DTO、Service、异常处理和测试会继续作为回归基线。
 
-DTO、Service、Controller、API 异常处理和业务测试仍由学习者实现。后续 Aufgabe 目前只存在于 `ROADMAP.md` 中，尚未创建题面或代码骨架。
+当前正式发布的是 Aufgabe 02：修改招生专业容量。题目要求实现 `PUT /api/v1/study-programs/{id}/capacity`，重点是数值边界、不可变 DTO、校验和 Service 事务。容量修改的业务代码与业务测试仍由学习者实现；Aufgabe 03 之后的内容只存在于 `ROADMAP.md` 中。
